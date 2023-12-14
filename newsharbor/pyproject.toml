@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "newsharbor"
+version = "0.1.0"
+description = "The aim of NewsHarbor is to create a highly personalized and efficient Python package that leverages the Times Newswire API."
+authors = ["Angie Gao"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
